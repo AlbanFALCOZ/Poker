@@ -19,10 +19,14 @@ public class MainPoker {
         */
 
     }
-
+    public boolean verifMain() {
+        if (this.Main.getValue()<=10 && this.Main.getValue()>=2) return true;
+        return false;
+    }
     public void ajoutCartes() {
         //System.out.println(this.name + " : ");
         this.Main = new Cartes(myScan.nextInt(),"Tr");
+        if (!verifMain()) ajoutCartes();
     }
 
     public void toCompare(MainPoker other){
