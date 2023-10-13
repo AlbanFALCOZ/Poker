@@ -11,7 +11,6 @@ public class Cartes {
     public Cartes(int value,String color){
         this.value = value;
         this.color = color;
-        System.out.println("test");
     }
 
     public int getValue() {
