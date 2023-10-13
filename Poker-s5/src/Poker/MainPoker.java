@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MainPoker {
 
-    private Cartes Main;
+    protected Cartes Main;
     private Scanner myScan;
     private String name;
 
@@ -24,7 +24,7 @@ public class MainPoker {
         return false;
     }
     public void ajoutCartes() {
-        //System.out.println(this.name + " : ");
+        System.out.println("Main : ");
         this.Main = new Cartes(myScan.nextInt(),"Tr");
         if (!verifMain()) ajoutCartes();
     }
