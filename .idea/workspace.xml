@@ -8,7 +8,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Entrée_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Entrée_sortie/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/test/Poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/Poker/CarteTest.java" afterDir="false" />
+>>>>>>> 8adaa7e3b3b40f0f1936ee2847ab741e4f3c6749
+      <change beforePath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" afterDir="false" />
+>>>>>>> 568fda50b873f1db60d238b12a731fdf07a165f0
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -56,6 +73,28 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alban/OneDrive/Documents/Polytech/SI3/S5/s5Projects/Poker/dojo-poker-23-24-ps5-23-24-poker-m",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> 568fda50b873f1db60d238b12a731fdf07a165f0
   }
 }</component>
   <component name="RecentsManager">
@@ -114,8 +153,12 @@
       <option name="presentableId" value="Default" />
       <updated>1698415846125</updated>
       <workItem from="1698415847249" duration="2542000" />
+<<<<<<< HEAD
       <workItem from="1698320957205" duration="75000" />
       <workItem from="1698321047634" duration="154000" />
+=======
+      <workItem from="1698418560996" duration="2027000" />
+>>>>>>> 568fda50b873f1db60d238b12a731fdf07a165f0
     </task>
     <servers />
   </component>

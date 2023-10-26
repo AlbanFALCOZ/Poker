@@ -35,4 +35,12 @@ public class MainPoker {
     }
 
 
+    public String toString() {
+        String handString = "Main : ";
+        for (int i = 0; i < main.length; i++) {
+            handString += main[i].toString();
+        }
+        return handString;
+    }
+
 }
