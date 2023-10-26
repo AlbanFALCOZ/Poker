@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MainPoker {
 
     private Cartes[] main = new Cartes[2];
-    protected Cartes Main;
+    //protected Cartes Main;
     private Scanner myScan;
     private String name;
 
@@ -20,8 +20,15 @@ public class MainPoker {
         */
 
     }
+    public boolean verifCarte(Cartes carte){
+        if ((carte.getValue() >= 2) && (carte.getValue() <= 14)) return true;
+        return false;
+    }
     public boolean verifMain() {
-        return carte.getValue() >= 2 && carte.getValue() <= 14;
+        for(Cartes carte: main) {
+            if (!verifCarte(carte)) return false;
+            }
+        return true;
         /*if (this.Main.getValue()<=10 && this.Main.getValue()>=2) return true;
         return false;*/
     }
@@ -30,9 +37,9 @@ public class MainPoker {
         //System.out.println(this.name + " : ");
         for (int i = 0; i < 2; i++) {
             int value = myScan.nextInt();
-            String color = myScan.next(); //lire la couleur
-            Cartes carte = new Cartes(value, color);
-            if (verifMain(carte)) {
+            //String color = myScan.next(); //lire la couleur
+            Cartes carte = new Cartes(value, "Tr");
+            if (verifCarte(carte)) {
                 this.main[i] = carte;
             } else {
                 System.out.println("Valeur invalide. Entrez une valeur entre 2 et 14."); //14 pour As
