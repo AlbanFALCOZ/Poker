@@ -1,12 +1,10 @@
 package Poker;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class MainPoker {
 
-    private Cartes[] main = new Cartes[2];
+    private Carte[] main = new Carte[2];
     //protected Cartes Main;
     private Scanner myScan;
     private String name;
@@ -20,12 +18,12 @@ public class MainPoker {
         */
 
     }
-    public boolean verifCarte(Cartes carte){
+    public boolean verifCarte(Carte carte){
         if ((carte.getValue() >= 2) && (carte.getValue() <= 14)) return true;
         return false;
     }
     public boolean verifMain() {
-        for(Cartes carte: main) {
+        for(Carte carte: main) {
             if (!verifCarte(carte)) return false;
             }
         return true;
@@ -38,7 +36,7 @@ public class MainPoker {
         for (int i = 0; i < 2; i++) {
             int value = myScan.nextInt();
             //String color = myScan.next(); //lire la couleur
-            Cartes carte = new Cartes(value, "Tr");
+            Carte carte = new Carte(value, "Tr");
             if (verifCarte(carte)) {
                 this.main[i] = carte;
             } else {

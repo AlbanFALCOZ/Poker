@@ -1,14 +1,11 @@
 package Poker;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Cartes {
+public class Carte {
 
     private int value;
     private String color;
 
-    public Cartes(int value,String color){
+    public Carte(int value, String color){
         this.value = value;
         this.color = color;
     }
