@@ -8,7 +8,8 @@ public class MainPoker {
     int[] occurrences = new int[14];
 
     public MainPoker(Carte[] main){
-        this.main=main;
+        this.main = main;
+
     }
 
     public boolean pair() {
@@ -23,19 +24,6 @@ public class MainPoker {
         return false;
     }
 
-
-
-    public static void main(String[] args) {
-        Carte[] testMain = {
-                new Carte(3,"Tr"),
-                new Carte(4,"Tr"),
-                new Carte(6,"Tr"),
-                new Carte(8,"Tr"),
-                new Carte(10,"Tr")
-        };
-        MainPoker pokerMain = new MainPoker(testMain);
-        System.out.println(pokerMain.pair()); // devrait retourner true
-    }
 
     public String toString() {
         String handString = "Main : ";

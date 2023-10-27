@@ -6,9 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6cf68e77-0ed4-48d1-8556-5f31be89c4a4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Poker-s5/src/Entrée_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Entrée_sortie/Jeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Poker/MainPoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/test/Poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/Poker/CarteTest.java" afterDir="false" />
+>>>>>>> 8adaa7e3b3b40f0f1936ee2847ab741e4f3c6749
       <change beforePath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,6 +40,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2XLkev4335t8Ieb9O8ffD7GRTQG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/alban/OneDrive/Documents/Polytech/SI3/S5/s5Projects/Poker/dojo-poker-23-24-ps5-23-24-poker-m",
     "node.js.detected.package.eslint": "true",
@@ -52,6 +69,53 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Poker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainPokerTest.testPair">
+    <configuration name="MainPokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPokerTest.testPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
+      <option name="METHOD_NAME" value="testPair" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainPokerTest.testPair" />
+        <item itemvalue="JUnit.MainPokerTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,5 +131,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

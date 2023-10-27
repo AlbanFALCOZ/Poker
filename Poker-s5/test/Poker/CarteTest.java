@@ -20,6 +20,8 @@ class CarteTest {
             assertEquals(14, carte5.getValue());
             Carte carte6 = new Carte('Z', "Tr");
             assertEquals(2, carte6.getValue());
+            Carte carte7 = new Carte(-1, "Tr");
+            assertEquals(2, carte7.getValue());
         }
 
         @Test
