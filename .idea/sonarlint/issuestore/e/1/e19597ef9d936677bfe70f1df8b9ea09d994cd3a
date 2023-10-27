@@ -1,0 +1,20 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ª…´üÿÿÿÿ8ÒöŒ·1
+\
+java:S1117":Rename "myScan" which hides the field declared at line 11.(Ç–ø—ûÿÿÿÿ8ÒöŒ·1
+M
+java:S1481"+Remove this unused "myScan" local variable.(Ç–ø—ûÿÿÿÿ8ÒöŒ·1
+V
+java:S1854"9Remove this useless assignment to local variable "carte".(ö“€Ã8ÒöŒ·1
+L	java:S106"+Replace this use of System.out by a logger.(©ÁĞĞÿÿÿÿÿ8ÒöŒ·1
+F
+java:S1197"*Move the array designators [] to the type.(Úı°
+8âöŒ·1
+G	java:S106"+Replace this use of System.out by a logger.(åòµ°8âöŒ·1
+X	java:S125"<This block of commented-out lines of code should be removed.(Õÿ‹¨8âöŒ·1
+G
+java:S1481"*Remove this unused "carte" local variable.(ö“€Ã8âöŒ·1
+J
+java:S1068"-Remove this unused "firstHand" private field.(šé¦ô8âöŒ·1
+P
+java:S1068".Remove this unused "secondHand" private field.(½‡±îûÿÿÿÿ8âöŒ·1
