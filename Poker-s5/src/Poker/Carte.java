@@ -5,8 +5,6 @@ public class Carte {
     private int value;
     private String color;
 
-
-
     public Carte(int value, String color) {
         this.color = color;
         if (value >= 2 && value <= 10) {
@@ -32,6 +30,8 @@ public class Carte {
 
         }
     }
+
+
 
     public int getValue() {
         return value;
