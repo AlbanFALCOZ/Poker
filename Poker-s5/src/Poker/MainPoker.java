@@ -1,14 +1,24 @@
 package Poker;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class MainPoker {
-
+    int CARD_NUMBER=5;
     Carte[] main;
     int[] occurrences = new int[14];
 
     public MainPoker(Carte[] main){
         this.main = main;
+
+    }
+    public ArrayList<Integer> triValues(){ //trie les valeurs de la main
+        ArrayList<Integer> values = new ArrayList<Integer>();
+        for(Carte carte: main){
+            values.add(carte.getValue());
+        }
+        Collections.sort(values);
+        return values;
 
     }
 
