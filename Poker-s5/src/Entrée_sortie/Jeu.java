@@ -15,7 +15,7 @@ public class Jeu {
         Scanner myScan = new Scanner(System.in);
     }
 
-    public void readHand(MainPoker PokerHand) {
+    public void readHand(MainPoker PokerHand) { //
         System.out.println("Main 1 : ");
         String hand[] = myScan.next().split(" ");
         if (hand.length >= 6) {

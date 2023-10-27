@@ -16,7 +16,6 @@ public class MainPoker {
         for (Carte carte : main) { //parcourir chaque carte de la main
             int indice = carte.getValue()-2;
             occurrences[indice] += 1;
-
             if (occurrences[indice] == 2) {
                 return true;
             }
