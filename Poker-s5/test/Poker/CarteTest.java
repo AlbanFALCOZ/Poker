@@ -10,6 +10,16 @@ class CarteTest {
         void getValue() {
             Carte carte = new Carte(5, "Tr");
             assertEquals(5, carte.getValue());
+            Carte carte2 = new Carte('V', "Tr");
+            assertEquals(11, carte2.getValue());
+            Carte carte3 = new Carte('D', "Tr");
+            assertEquals(12, carte3.getValue());
+            Carte carte4 = new Carte('R', "Tr");
+            assertEquals(13, carte4.getValue());
+            Carte carte5 = new Carte('A', "Tr");
+            assertEquals(14, carte5.getValue());
+            Carte carte6 = new Carte('Z', "Tr");
+            assertEquals(2, carte6.getValue());
         }
 
         @Test
