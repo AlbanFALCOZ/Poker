@@ -25,12 +25,6 @@ public class MainPoker {
 
 
 
-
-
-
-
-
-
     public static void main(String[] args) {
         Carte[] testMain = {
                 new Carte(3,"Tr"),
@@ -43,5 +37,12 @@ public class MainPoker {
         System.out.println(pokerMain.pair()); // devrait retourner true
     }
 
+    public String toString() {
+        String handString = "Main : ";
+        for (int i = 0; i < main.length; i++) {
+            handString += main[i].toString();
+        }
+        return handString;
+    }
 
 }
