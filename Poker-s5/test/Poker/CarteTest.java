@@ -24,6 +24,7 @@ class CarteTest {
             assertEquals(2, carte7.getValue());
         }
 
+
         @Test
         void getColor() {
             Carte carte = new Carte(5, "Tr");
