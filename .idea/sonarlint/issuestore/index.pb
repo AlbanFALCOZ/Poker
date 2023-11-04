@@ -13,3 +13,5 @@ V
 &Poker-s5/test/Poker/MainPokerTest.java,f\1\f1b15ef1154e60803189ca18c7611809bd0ac21b
 Y
 )Poker-s5/test/Entrée_sortie/JeuTest.java,a\f\af217d6a5463429f6a76ebeee24e138b44a9afd7
+V
+&dojo-poker-23-24-ps5-23-24-poker-m.iml,0\8\08fe77dc17e72fc36e487e248b2e44af5da5a75c
