@@ -8,14 +8,39 @@ public class MainPoker {
     int CARD_NUMBER = 5;
     Carte[] main;
     int[] occurrences = new int[15];
+    int[] occurencesCouleur = new int[4];
+    ArrayList<Integer> valuesSorted = new ArrayList<Integer>();
 
     public MainPoker(Carte[] main) {
         if (main.length != CARD_NUMBER) {
             throw new IllegalArgumentException("Une main de poker doit contenir exactement 5 cartes.");
         }
+        if (!verifMain(main)) {
+            throw new IllegalArgumentException("Vous avez rentré deux fois la même carte");
+        }
         this.main = main;
         initialiserOccurrences();
+    }
 
+    public boolean verifMain(Carte[] main) {
+        for (int i = 0; i < 4; i++) {
+            for (int j = i + 1; j < 5; j++) {
+                if (!main[i].verifCarte(main[j])) return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean mainDifferente(MainPoker other) {
+        for(int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if (!main[i].verifCarte(other.main[j])) {
+                    System.out.println(main[i] + " se trouve dans les deux mains");
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
 
@@ -23,6 +48,11 @@ public class MainPoker {
         for (Carte carte : main) {
             int indice = carte.getValue();
             occurrences[indice]++;
+            String color = carte.getColor();
+            if (color.equals("Ca")) occurencesCouleur[0]++;
+            else if (color.equals("Co")) occurencesCouleur[1]++;
+            else if (color.equals("Pi")) occurencesCouleur[2]++;
+            else occurencesCouleur[3]++;
         }
     }
 
@@ -32,8 +62,8 @@ public class MainPoker {
             values.add(carte.getValue());
         }
         Collections.sort(values, Collections.reverseOrder()); //trie les valeurs de la main dans l'ordre décroissant;
+        valuesSorted = values;
         return values.get(0);
-
     }
 
     public boolean suite() {
@@ -110,6 +140,7 @@ public class MainPoker {
     }
 
     public boolean full() {
+        /*
         boolean troisCartesIdentiques = false;
         boolean deuxCartesIdentiques = false;
 
@@ -120,8 +151,10 @@ public class MainPoker {
                 deuxCartesIdentiques = true;
             }
         }
-
         return troisCartesIdentiques && deuxCartesIdentiques;
+        */
+        if (brelan() && pair()) return true;
+        return false;
     }
 
     public boolean carre() {
@@ -142,6 +175,13 @@ public class MainPoker {
         return -1; // Retourne -1 si la main n'a pas de carré
     }
 
+    public boolean couleur() {
+        for(int i = 0; i < occurencesCouleur.length; i++) {
+            if (occurencesCouleur[i] == 5) return true;
+        }
+        return false;
+    }
+
 
     public String toString() {
         /*String handString = "Main : ";
@@ -156,7 +196,6 @@ public class MainPoker {
             handString.append(carte).append(" ");
         }
         return handString.toString().trim();
-
     }
 
 }

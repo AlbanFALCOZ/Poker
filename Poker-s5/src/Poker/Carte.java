@@ -6,7 +6,7 @@ public class Carte {
     private String color;
 
     public Carte(int value, String color) {
-        if ((color == "Tr") || (color == "Ca") || (color == "Co") || (color == "Pi")) this.color = color;
+        if ((color.equals("Tr")) || (color.equals("Ca")) || (color.equals("Co")) || color.equals("Pi")) this.color = color;
         else this.color = "Err";
 
         if (value >= 2 && value <= 10) {
@@ -32,7 +32,10 @@ public class Carte {
         }
     }
 
-
+    public boolean verifCarte(Carte other) {
+        if ((value == other.getValue()) && (color.equals(other.getColor()))) return false;
+        return true;
+    }
 
     public int getValue() {
         return value;

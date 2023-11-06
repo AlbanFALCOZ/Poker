@@ -14,7 +14,7 @@ public class MainPokerTest {
     public void setUp() {
         // Créez une main de poker pour chaque test
         Carte[] main = {
-                new Carte('A', "Tr"),
+                new Carte('A', "Co"),
                 new Carte(4, "Tr"),
                 new Carte(6, "Tr"),
                 new Carte('A', "Tr"),
@@ -24,10 +24,10 @@ public class MainPokerTest {
 
         // Créez une main de poker avec deux paires
         Carte[] mainAvecDeuxPaires = {
-                new Carte(3, "Tr"),
+                new Carte(3, "Co"),
                 new Carte(3, "Tr"),
                 new Carte(6, "Tr"),
-                new Carte(6, "Tr"),
+                new Carte(6, "Co"),
                 new Carte(10, "Tr")
         };
         mainPokerAvecDeuxPaires = new MainPoker(mainAvecDeuxPaires);
@@ -93,8 +93,8 @@ public class MainPokerTest {
         // Créez une nouvelle main avec brelan
         Carte[] mainAvecBrelan = {
                 new Carte('A', "Tr"),
-                new Carte('A', "Tr"),
-                new Carte('A', "Tr"),
+                new Carte('A', "Ca"),
+                new Carte('A', "Co"),
                 new Carte(8, "Tr"),
                 new Carte(10, "Tr")
         };
@@ -218,13 +218,32 @@ public class MainPokerTest {
         MainPoker mainPoker2 = new MainPoker(carreHand);
         assertTrue(mainPoker2.carre());
         assertEquals(2, mainPoker2.valeurDuCarre());
+    }
 
+
+
+    @Test
+    public void memeCartes() {
+        Carte[] memeCartes = {
+                new Carte(2, "Tr"),
+                new Carte(2, "Tr"),
+                new Carte(4, "Ca"),
+                new Carte(3, "Pi"),
+                new Carte(3, "Tr")
+        };
+
+        // L'exception est levée mais je ne sais pas comment gérer les tests d'exceptions
+        /*
+        assertThrows(IllegalArgumentException.class, () -> {
+            MainPoker mainPoker2 = new MainPoker(memeCartes);
+        });
+         */
     }
 
     @Test
     public void testToString() {
         // Teste la représentation textuelle de la main
-        String expected = "Main : 14 de Tr 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
+        String expected = "Main : 14 de Co 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
         assertEquals(expected, mainPoker.toString());
     }
 }

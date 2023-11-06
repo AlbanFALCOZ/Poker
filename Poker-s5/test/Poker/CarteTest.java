@@ -37,6 +37,18 @@ class CarteTest {
             assertEquals("Err", carte.getColor());
         }
 
+
+        @Test
+        void sameCard() {
+            Carte carte = new Carte(5, "Tr");
+            Carte other = new Carte(5, "Tr");
+            Carte otherValue = new Carte(6, "Tr");
+            Carte otherColor = new Carte(5, "Ca");
+            assertFalse(carte.verifCarte(other));
+            assertTrue(carte.verifCarte(otherColor));
+            assertTrue(carte.verifCarte(otherValue));
+        }
+
         @Test
         void testToString() {
             Carte carte = new Carte(5, "Tr");
