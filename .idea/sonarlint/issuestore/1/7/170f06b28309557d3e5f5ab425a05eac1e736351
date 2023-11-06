@@ -1,2 +1,14 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„üÖ¼8¼ÁÓŒ·1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶þøÿÿÿÿ8¦÷ÂÔ¹1
+{
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶þøÿÿÿÿ8¦÷ÂÔ¹1
+{
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶þøÿÿÿÿ8¦÷ÂÔ¹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„üÖ¼8¦÷ÂÔ¹1
+r	java:S116"VRename this field "CARD_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¥ªö8¶÷ÂÔ¹1
+X	java:S125""<This block of commented-out lines of code should be removed.(×úÐ8Å÷ÂÔ¹1
+X	java:S125C"<This block of commented-out lines of code should be removed.(ÌËàë8Å÷ÂÔ¹1
+X	java:S125”"<This block of commented-out lines of code should be removed.(”Ý»n8Å÷ÂÔ¹1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8´º°Õ¹1
