@@ -1,16 +1,16 @@
 package Poker;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MainPokerTest {
     private MainPoker mainPoker;
     private MainPoker mainPokerAvecDeuxPaires;
     private MainPoker mainPokerSansDeuxPaires;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         // Créez une main de poker pour chaque test
         Carte[] main = {

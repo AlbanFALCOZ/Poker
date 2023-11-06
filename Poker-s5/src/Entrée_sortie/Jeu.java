@@ -65,6 +65,7 @@ public class Jeu {
     private Scanner myScan;
     private MainPoker firstHand;
     private MainPoker secondHand;
+    private static int numberOfHand = 0;
 
     public Jeu() {
         myScan = new Scanner(System.in);
@@ -72,7 +73,8 @@ public class Jeu {
 
 
     public MainPoker readHand() {
-        System.out.println("Main : ");
+        numberOfHand++;
+        System.out.println("Main " + numberOfHand + " : ");
         String[] hand = myScan.nextLine().split(" ");
         Carte[] listCard = new Carte[hand.length];
 
@@ -116,7 +118,6 @@ public class Jeu {
                 System.out.println("Problème : " + hand[i] + " n'est pas une carte valide. Veuillez recommencer");
                 return readHand();
             }
-
             listCard[i] = carte;
         }
         return new MainPoker(listCard);

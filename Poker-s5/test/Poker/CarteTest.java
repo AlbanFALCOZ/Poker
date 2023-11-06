@@ -19,9 +19,9 @@ class CarteTest {
             Carte carte5 = new Carte('A', "Tr");
             assertEquals(14, carte5.getValue());
             Carte carte6 = new Carte('Z', "Tr");
-            assertEquals(2, carte6.getValue());
+            assertEquals(-1, carte6.getValue());
             Carte carte7 = new Carte(-1, "Tr");
-            assertEquals(2, carte7.getValue());
+            assertEquals(-1, carte7.getValue());
         }
 
 
@@ -29,6 +29,12 @@ class CarteTest {
         void getColor() {
             Carte carte = new Carte(5, "Tr");
             assertEquals("Tr", carte.getColor());
+        }
+
+        @Test
+        void wrongColor() {
+            Carte carte = new Carte(5, "He");
+            assertEquals("Err", carte.getColor());
         }
 
         @Test
