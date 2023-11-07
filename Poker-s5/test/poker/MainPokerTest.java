@@ -1,20 +1,20 @@
 package poker;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class MainPokerTest {
+class MainPokerTest {
     private MainPoker mainPoker;
     private MainPoker mainPokerAvecDeuxPaires;
     private MainPoker mainPokerSansDeuxPaires;
 
-    @Before
-    public void setUp() {
+    @BeforeEach
+    void setUp() {
         // Créez une main de poker pour chaque test
         Carte[] main = {
-                new Carte('A', "Tr"),
+                new Carte('A', "Co"),
                 new Carte(4, "Tr"),
                 new Carte(6, "Tr"),
                 new Carte('A', "Tr"),
@@ -24,10 +24,10 @@ public class MainPokerTest {
 
         // Créez une main de poker avec deux paires
         Carte[] mainAvecDeuxPaires = {
-                new Carte(3, "Tr"),
+                new Carte(3, "Co"),
                 new Carte(3, "Tr"),
                 new Carte(6, "Tr"),
-                new Carte(6, "Tr"),
+                new Carte(6, "Co"),
                 new Carte(10, "Tr")
         };
         mainPokerAvecDeuxPaires = new MainPoker(mainAvecDeuxPaires);
@@ -46,14 +46,14 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testTriValues() {
+    void testTriValues() {
         // Teste si les valeurs des cartes sont triées correctement
         // Les valeurs de cartes triées devraient être [14, 14, 10, 6, 4]
         assertEquals(14, mainPoker.triValues());
     }
 
     @Test
-    public void testPair() {
+    void testPair() {
         // Teste si la main contient une paire de cartes de même valeur
         // Dans ce cas, la main contient deux cartes de valeur A
         assertTrue(mainPoker.pair());
@@ -75,7 +75,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testDeuxPaires() {
+    void testDeuxPaires() {
         // La main contient effectivement deux paires
         assertTrue(mainPokerAvecDeuxPaires.deuxPaires());
         // La main n'a pas deux paires
@@ -84,7 +84,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testBrelan() {
+    void testBrelan() {
         // Teste si la main contient un brelan de cartes de même valeur
         // Dans ce cas, la main ne contient pas de brelan
         assertFalse(mainPoker.brelan());
@@ -93,8 +93,8 @@ public class MainPokerTest {
         // Créez une nouvelle main avec brelan
         Carte[] mainAvecBrelan = {
                 new Carte('A', "Tr"),
-                new Carte('A', "Tr"),
-                new Carte('A', "Tr"),
+                new Carte('A', "Ca"),
+                new Carte('A', "Co"),
                 new Carte(8, "Tr"),
                 new Carte(10, "Tr")
         };
@@ -107,7 +107,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testSuite() {
+    void testSuite() {
         Carte[] mainAvecSuite = {
                 new Carte(10, "Tr"),
                 new Carte('V', "Tr"),
@@ -132,7 +132,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testCarteHauteSuite() {
+    void testCarteHauteSuite() {
         Carte[] mainAvecSuite = {
                 new Carte(10, "Tr"),
                 new Carte('V', "Tr"),
@@ -160,7 +160,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testFull() {
+    void testFull() {
         Carte[] fullHand = {
                 new Carte(2, "Tr"),
                 new Carte(2, "Co"),
@@ -194,7 +194,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testCarre() {
+    void testCarre() {
         Carte[] nonCarreHand = {
                 new Carte(2, "Tr"),
                 new Carte(2, "Co"),
@@ -218,31 +218,50 @@ public class MainPokerTest {
         MainPoker mainPoker2 = new MainPoker(carreHand);
         assertTrue(mainPoker2.carre());
         assertEquals(2, mainPoker2.valeurDuCarre());
+    }
 
+
+
+    @Test
+    void memeCartes() {
+        Carte[] memeCartes = {
+                new Carte(2, "Tr"),
+                new Carte(2, "Tr"),
+                new Carte(4, "Ca"),
+                new Carte(3, "Pi"),
+                new Carte(3, "Tr")
+        };
+
+        // L'exception est levée mais je ne sais pas comment gérer les tests d'exceptions
+        /*
+        assertThrows(IllegalArgumentException.class, () -> {
+            MainPoker mainPoker2 = new MainPoker(memeCartes);
+        });
+         */
     }
 
     @Test
-    public void testToString() {
+    void testToString() {
         // Teste la représentation textuelle de la main
-        String expected = "Main : 14 de Tr 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
+        String expected = "Main : 14 de Co 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
         assertEquals(expected, mainPoker.toString());
     }
 
     @Test
-    public void testCouleur(){
+    void testCouleur(){
         Carte[] couleurHand = {
-                new Carte(2, "Tr"),
+                new Carte(3, "Tr"),
                 new Carte(6, "Tr"),
+                new Carte(4, "Tr"),
                 new Carte(2, "Tr"),
-                new Carte(2, "Tr"),
-                new Carte(3, "Tr")
+                new Carte(9, "Tr")
         };
         MainPoker mainPoker1=new MainPoker(couleurHand);
         Carte[] noncouleurHand = {
                 new Carte(2, "Pi"),
                 new Carte(6, "Tr"),
                 new Carte(2, "Ca"),
-                new Carte(2, "Tr"),
+                new Carte(5, "Tr"),
                 new Carte(3, "Tr")
         };
         MainPoker mainPoker2=new MainPoker(noncouleurHand);
@@ -252,6 +271,7 @@ public class MainPokerTest {
     }
 
     @Test
+
     public void TestQuinteFlush(){
         Carte[] quinteFlushHand = {
                 new Carte(  2, "Tr"),

@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d5581a-8b11-4715-859a-860fb74b09fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/3/83bb54ab2e0d56a09ef5223335ffb07e42924a71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/1/f1b15ef1154e60803189ca18c7611809bd0ac21b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/8/3/83bb54ab2e0d56a09ef5223335ffb07e42924a71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/f/1/f1b15ef1154e60803189ca18c7611809bd0ac21b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/509d79fabde1bb2e71ae25088efbdd556dda69e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/0/509d79fabde1bb2e71ae25088efbdd556dda69e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dojo-poker-23-24-ps5-23-24-poker-m.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Cartes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPokerTest.class" beforeDir="false" />
+    <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Entrée_sortie/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Entrée_sortie/JeuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/CarteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,38 +19,141 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="2XLkYikAPLQv4nF8agt44j0VHYC" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2XnwxWPjQhC9roTlML76TIgno2W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alban/OneDrive/Documents/Polytech/SI3/S5/s5Projects/Poker/dojo-poker-23-24-ps5-23-24-poker-m",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.JeuTest">
+    <configuration name="JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Entrée_sortie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.CarteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPokerTest.carteDifférente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
+      <option name="METHOD_NAME" value="carteDifférente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPokerTest.memeCartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Poker" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
+      <option name="METHOD_NAME" value="memeCartes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JeuTest" />
+        <item itemvalue="JUnit.MainPokerTest" />
+        <item itemvalue="JUnit.CarteTest" />
+        <item itemvalue="JUnit.MainPokerTest.memeCartes" />
+        <item itemvalue="JUnit.MainPokerTest.carteDifférente" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47d5581a-8b11-4715-859a-860fb74b09fd" name="Changes" comment="" />
-      <created>1698415802921</created>
+      <changelist id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="" />
+      <created>1699278398359</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698415802921</updated>
-      <workItem from="1698415811250" duration="34000" />
+      <updated>1699278398359</updated>
+      <workItem from="1699278399519" duration="6769000" />
+      <workItem from="1699345971851" duration="2886000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
