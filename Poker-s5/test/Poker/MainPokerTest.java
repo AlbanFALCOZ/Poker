@@ -5,13 +5,13 @@ import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MainPokerTest {
+class MainPokerTest {
     private MainPoker mainPoker;
     private MainPoker mainPokerAvecDeuxPaires;
     private MainPoker mainPokerSansDeuxPaires;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         // Créez une main de poker pour chaque test
         Carte[] main = {
                 new Carte('A', "Co"),
@@ -46,14 +46,14 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testTriValues() {
+    void testTriValues() {
         // Teste si les valeurs des cartes sont triées correctement
         // Les valeurs de cartes triées devraient être [14, 14, 10, 6, 4]
         assertEquals(14, mainPoker.triValues());
     }
 
     @Test
-    public void testPair() {
+    void testPair() {
         // Teste si la main contient une paire de cartes de même valeur
         // Dans ce cas, la main contient deux cartes de valeur A
         assertTrue(mainPoker.pair());
@@ -75,7 +75,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testDeuxPaires() {
+    void testDeuxPaires() {
         // La main contient effectivement deux paires
         assertTrue(mainPokerAvecDeuxPaires.deuxPaires());
         // La main n'a pas deux paires
@@ -84,7 +84,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testBrelan() {
+    void testBrelan() {
         // Teste si la main contient un brelan de cartes de même valeur
         // Dans ce cas, la main ne contient pas de brelan
         assertFalse(mainPoker.brelan());
@@ -107,7 +107,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testSuite() {
+    void testSuite() {
         Carte[] mainAvecSuite = {
                 new Carte(10, "Tr"),
                 new Carte('V', "Tr"),
@@ -132,7 +132,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testCarteHauteSuite() {
+    void testCarteHauteSuite() {
         Carte[] mainAvecSuite = {
                 new Carte(10, "Tr"),
                 new Carte('V', "Tr"),
@@ -160,7 +160,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void testFull() {
+    void testFull() {
         Carte[] fullHand = {
                 new Carte(2, "Tr"),
                 new Carte(2, "Co"),
@@ -194,7 +194,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testCarre() {
+    void testCarre() {
         Carte[] nonCarreHand = {
                 new Carte(2, "Tr"),
                 new Carte(2, "Co"),
@@ -223,7 +223,7 @@ public class MainPokerTest {
 
 
     @Test
-    public void memeCartes() {
+    void memeCartes() {
         Carte[] memeCartes = {
                 new Carte(2, "Tr"),
                 new Carte(2, "Tr"),
@@ -241,14 +241,14 @@ public class MainPokerTest {
     }
 
     @Test
-    public void testToString() {
+    void testToString() {
         // Teste la représentation textuelle de la main
         String expected = "Main : 14 de Co 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
         assertEquals(expected, mainPoker.toString());
     }
 
     @Test
-    public void testCouleur(){
+    void testCouleur(){
         Carte[] couleurHand = {
                 new Carte(3, "Tr"),
                 new Carte(6, "Tr"),
@@ -271,7 +271,7 @@ public class MainPokerTest {
     }
 
     @Test
-    public void TestStraightFlush(){
+    void TestStraightFlush(){
         Carte[] straightFlushHand = {
                 new Carte(  2, "Tr"),
                 new Carte(3, "Tr"),

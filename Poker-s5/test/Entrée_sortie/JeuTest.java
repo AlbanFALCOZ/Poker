@@ -11,5 +11,4 @@ class JeuTest {
         Jeu jeu = new Jeu();
         jeu.startGame();
     }
-
 }
