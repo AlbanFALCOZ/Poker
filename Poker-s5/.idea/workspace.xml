@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/Poker/MainPoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Poker-s5/Poker/MainPoker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/Poker/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Poker-s5/Poker/Score.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/entree_sortie/Jeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Poker-s5/entree_sortie/Jeu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Poker-s5/Poker/MainPokerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Poker-s5/Poker/MainPokerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Poker-s5/entree_sortie/JeuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Poker-s5/entree_sortie/JeuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poker/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poker/Score.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +140,7 @@
       <workItem from="1699345971851" duration="3226000" />
       <workItem from="1699349239841" duration="3772000" />
       <workItem from="1699353121869" duration="155000" />
-      <workItem from="1699355806611" duration="170000" />
+      <workItem from="1699355806611" duration="643000" />
     </task>
     <servers />
   </component>
