@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Poker/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poker/Carte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poker/MainPoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/CarteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699278398359</updated>
-      <workItem from="1699278399519" duration="6654000" />
+      <workItem from="1699278399519" duration="6769000" />
     </task>
     <servers />
   </component>

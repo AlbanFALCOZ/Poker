@@ -246,4 +246,50 @@ public class MainPokerTest {
         String expected = "Main : 14 de Co 4 de Tr 6 de Tr 14 de Tr 10 de Tr";
         assertEquals(expected, mainPoker.toString());
     }
+
+    @Test
+    public void testCouleur(){
+        Carte[] couleurHand = {
+                new Carte(3, "Tr"),
+                new Carte(6, "Tr"),
+                new Carte(4, "Tr"),
+                new Carte(2, "Tr"),
+                new Carte(9, "Tr")
+        };
+        MainPoker mainPoker1=new MainPoker(couleurHand);
+        Carte[] noncouleurHand = {
+                new Carte(2, "Pi"),
+                new Carte(6, "Tr"),
+                new Carte(2, "Ca"),
+                new Carte(5, "Tr"),
+                new Carte(3, "Tr")
+        };
+        MainPoker mainPoker2=new MainPoker(noncouleurHand);
+        assertTrue(mainPoker1.couleur());
+        assertFalse(mainPoker2.couleur());
+
+    }
+
+    @Test
+    public void TestStraightFlush(){
+        Carte[] straightFlushHand = {
+                new Carte(  2, "Tr"),
+                new Carte(3, "Tr"),
+                new Carte(4, "Tr"),
+                new Carte(5, "Tr"),
+                new Carte(6, "Tr")
+        };
+        MainPoker mainPoker1=new MainPoker(straightFlushHand);
+        Carte[] nonStraightFlushHand = {
+                new Carte(2, "Pi"),
+                new Carte(6, "Tr"),
+                new Carte(2, "Ca"),
+                new Carte(2, "Tr"),
+                new Carte(3, "Tr")
+        };
+        MainPoker mainPoker2=new MainPoker(nonStraightFlushHand);
+        assertTrue(mainPoker1.straightFlush());
+        assertFalse(mainPoker2.straightFlush());
+
+    }
 }

@@ -43,7 +43,6 @@ public class MainPoker {
         return true;
     }
 
-
     private void initialiserOccurrences() {
         for (Carte carte : main) {
             int indice = carte.getValue();
@@ -175,10 +174,21 @@ public class MainPoker {
         return -1; // Retourne -1 si la main n'a pas de carré
     }
 
-    public boolean couleur() {
-        for(int i = 0; i < occurencesCouleur.length; i++) {
-            if (occurencesCouleur[i] == 5) return true;
+
+
+    public boolean couleur(){ //fonction qui retourne vrai si toutes les cartes ont la meme couleur
+        String couleurIndice0=main[0].getColor();
+        boolean samecolor=true;
+        for(int i=1; i< main.length; i++){
+            if(!main[i].getColor().equals(couleurIndice0)){
+                samecolor=false;
+                break;
+            }
         }
+        return samecolor;
+    }
+    public boolean straightFlush(){
+        if(suite()&&couleur()) return true;
         return false;
     }
 
@@ -197,5 +207,7 @@ public class MainPoker {
         }
         return handString.toString().trim();
     }
+
+
 
 }
