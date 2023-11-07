@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abf609dbfed8a2e038bf96103518ec5ff01e7764" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f45bc8eb67a59ae23cebc688fbc3db8b25bdc9ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/b/abf609dbfed8a2e038bf96103518ec5ff01e7764" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f45bc8eb67a59ae23cebc688fbc3db8b25bdc9ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entrée_sortie/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Entrée_sortie/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Entrée_sortie/JeuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/CarteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Poker/MainPokerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/Entrée_sortie/Jeu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/Poker/Carte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Poker-s5/Poker/Carte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Poker-s5/Poker/MainPoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Poker-s5/Poker/MainPoker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Poker-s5/Entrée_sortie/JeuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Poker-s5/Poker/CarteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Poker-s5/Poker/CarteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Poker-s5/Poker/MainPokerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Poker-s5/Poker/MainPokerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entree_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entree_sortie/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poker/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poker/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poker/MainPoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/entree_sortie/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/entree_sortie/JeuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/poker/CarteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/poker/MainPokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/poker/MainPokerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JeuTest">
+  <component name="RunManager" selected="Application.entree_sortie.JeuTest">
     <configuration name="JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
       <module name="Poker-s5" />
@@ -65,16 +79,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="entree_sortie.JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entree_sortie.JeuTest" />
       <module name="Poker-s5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Poker.*" />
+          <option name="PATTERN" value="entree_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="Poker.CarteTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarteTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="poker" />
+      <option name="MAIN_CLASS_NAME" value="poker.CarteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPokerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poker-s5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="poker" />
+      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,45 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPokerTest.carteDifférente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poker-s5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Poker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
-      <option name="METHOD_NAME" value="carteDifférente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPokerTest.memeCartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poker-s5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Poker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
-      <option name="METHOD_NAME" value="memeCartes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.entree_sortie.JeuTest" />
+        <item itemvalue="JUnit.CarteTest (1)" />
+        <item itemvalue="JUnit.MainPokerTest (1)" />
         <item itemvalue="Application.JeuTest" />
         <item itemvalue="JUnit.MainPokerTest" />
-        <item itemvalue="JUnit.CarteTest" />
-        <item itemvalue="JUnit.MainPokerTest.memeCartes" />
-        <item itemvalue="JUnit.MainPokerTest.carteDifférente" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699278398359</updated>
       <workItem from="1699278399519" duration="6769000" />
-      <workItem from="1699345971851" duration="2886000" />
+      <workItem from="1699345971851" duration="3226000" />
+      <workItem from="1699349239841" duration="2432000" />
     </task>
     <servers />
   </component>

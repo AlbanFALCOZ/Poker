@@ -1,0 +1,24 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍŞçûÿÿÿÿ8ÄÒ¨Çº1
+{
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ8ÄÒ¨Çº1
+{
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ8ÄÒ¨Çº1
+{
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ8ÄÒ¨Çº1
+ã
+java:S1598"ÅThis file "MainPoker.java" should be located in "Poker" directory, not in "C:\Users\alban\OneDrive\Documents\Polytech\SI3\S5\s5Projects\Poker\dojo-poker-23-24-ps5-23-24-poker-m\Poker-s5\src\poker".(„üÖ¼8¥‹ëÈº1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„üÖ¼8ÄÒ¨Çº1
+r	java:S116"VRename this field "CARD_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¥ªö8½Ó¨Çº1
+G	java:S106&"+Replace this use of System.out by a logger.(§ö™8ëÓ¨Çº1
+X	java:S125?"<This block of commented-out lines of code should be removed.(×úĞ8ñÓ¨Çº1
+X	java:S125`"<This block of commented-out lines of code should be removed.(ÌËàë8ùÓ¨Çº1
+_
+java:S1126›"AReplace this if-then-else statement by a single return statement.(·óîç8†Ô¨Çº1
+^	java:S125"<This block of commented-out lines of code should be removed.(”ö¶Åûÿÿÿÿ8†Ô¨Çº1
+_
+java:S1126¿"AReplace this if-then-else statement by a single return statement.(²­ÕÇ8’Ô¨Çº1
+X	java:S125Å"<This block of commented-out lines of code should be removed.(”İ»n8•Ô¨Çº1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8•Ô¨Çº1

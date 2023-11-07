@@ -1,4 +1,4 @@
-package Poker;
+package poker;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class MainPoker {
     int CARD_NUMBER = 5;
     Carte[] main;
-    int[] occurrences = new int[15];
+    int[] occurrences = new int[15]; //Cette liste contient le nombre d'occurences de chaque carte. Ex : Si nous avons 2 deux, la liste contiendra
     int[] occurencesCouleur = new int[4];
     ArrayList<Integer> valuesSorted = new ArrayList<Integer>();
 
@@ -93,15 +93,6 @@ public class MainPoker {
     }
 
     public boolean pair() {
-        /*for (Carte carte : main) { //parcourir chaque carte de la main
-            int indice = carte.getValue()-2;
-            occurrences[indice] += 1;
-            if (occurrences[indice] == 2) {
-                return true;
-            }
-        }
-        return false;*/
-
         for (int occurrence : occurrences) {
             if (occurrence == 2) {
                 return true;
@@ -139,19 +130,6 @@ public class MainPoker {
     }
 
     public boolean full() {
-        /*
-        boolean troisCartesIdentiques = false;
-        boolean deuxCartesIdentiques = false;
-
-        for (int i = 2; i <= 14; i++) {
-            if (occurrences[i] == 3) {
-                troisCartesIdentiques = true;
-            } else if (occurrences[i] == 2) {
-                deuxCartesIdentiques = true;
-            }
-        }
-        return troisCartesIdentiques && deuxCartesIdentiques;
-        */
         if (brelan() && pair()) return true;
         return false;
     }
@@ -207,7 +185,4 @@ public class MainPoker {
         }
         return handString.toString().trim();
     }
-
-
-
 }

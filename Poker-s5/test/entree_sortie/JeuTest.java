@@ -1,4 +1,4 @@
-package Entrée_sortie;
+package entree_sortie;
 
 import org.junit.jupiter.api.Test;
 

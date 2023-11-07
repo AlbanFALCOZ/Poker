@@ -1,0 +1,25 @@
+
+j
+java:S11927"MDefine a constant instead of duplicating this literal "ProblÃ¨me : " 3 times.(Ä®ãÕ8€ëÈº1
+
+java:S11927"rDefine a constant instead of duplicating this literal " n'est pas une carte valide. Veuillez recommencer" 3 times.(Ä®ãÕ8€ëÈº1
+u
+java:S1450
+"XRemove the "firstHand" field and declare it as a local variable in the relevant methods.(šé¦ô8‘€ëÈº1
+{
+java:S1450"YRemove the "secondHand" field and declare it as a local variable in the relevant methods.(½‡±îûÿÿÿÿ8‘€ëÈº1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ë¿·˜ùÿÿÿÿ8¡€ëÈº1
+L	java:S106"+Replace this use of System.out by a logger.(ÂŠ²éşÿÿÿÿ8¡€ëÈº1
+>	java:S131"""Add a default case to this switch.(û‰¶¢8±€ëÈº1
+G	java:S1067"+Replace this use of System.out by a logger.(Ä®ãÕ8±€ëÈº1
+G	java:S106="+Replace this use of System.out by a logger.(Ä®ãÕ8±€ëÈº1
+G	java:S106A"+Replace this use of System.out by a logger.(Ä®ãÕ8±€ëÈº1
+R
+java:S2696F"6Make the enclosing method "static" or remove this set.(Ÿ’ş/8±€ëÈº1
+G	java:S106N"+Replace this use of System.out by a logger.(•Ñ¬8±€ëÈº1
+X
+java:S2696O"6Make the enclosing method "static" or remove this set.(ß¿ıÜşÿÿÿÿ8±€ëÈº1
+L	java:S106U"+Replace this use of System.out by a logger.(ü¾Õ”üÿÿÿÿ8±€ëÈº1
+L	java:S106W"+Replace this use of System.out by a logger.(Øáòøÿÿÿÿ8±€ëÈº1
+G	java:S106Y"+Replace this use of System.out by a logger.( ûç8±€ëÈº1
