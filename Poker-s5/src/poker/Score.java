@@ -36,4 +36,7 @@ public class Score {
     }
 
 
+    public int getScoreHand() {
+        return scoreHand;
+    }
 }
