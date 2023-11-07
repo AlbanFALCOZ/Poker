@@ -7,7 +7,8 @@ import java.util.Arrays;
 public class MainPoker {
     int CARD_NUMBER = 5;
     Carte[] main;
-    int[] occurrences = new int[15]; //Cette liste contient le nombre d'occurences de chaque carte. Ex : Si nous avons 2 deux, la liste contiendra
+    int[] occurrences = new int[15]; //Cette liste contient le nombre d'occurences de chaque carte. Ex : Si nous avons deux 2 et un 3, la liste contiendra [0,0,2,3,...,0]
+    //Cela nous permet
     int[] occurencesCouleur = new int[4];
     ArrayList<Integer> valuesSorted = new ArrayList<Integer>();
 
