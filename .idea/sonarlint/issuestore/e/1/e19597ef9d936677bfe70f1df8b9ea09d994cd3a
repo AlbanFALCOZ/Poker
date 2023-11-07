@@ -1,18 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ª…´üÿÿÿÿ8Û¡é·1
-X	java:S125"<This block of commented-out lines of code should be removed.(¼éË­8‹’†§º1
-u
-java:S1450B"XRemove the "firstHand" field and declare it as a local variable in the relevant methods.(šé¦ô8“’†§º1
-{
-java:S1450C"YRemove the "secondHand" field and declare it as a local variable in the relevant methods.(½‡±îûÿÿÿÿ8“’†§º1
-t
-java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ë¿·˜ùÿÿÿÿ8§’†§º1
-G	java:S106K"+Replace this use of System.out by a logger.( Ì¸Á8«’†§º1
->	java:S131Y""Add a default case to this switch.(û‰¶¢8¸’†§º1
-G	java:S106n"+Replace this use of System.out by a logger.(Ä®ãÕ8À’†§º1
-G	java:S106t"+Replace this use of System.out by a logger.(Ä®ãÕ8Â’†§º1
-M	java:S106ƒ"+Replace this use of System.out by a logger.(ü¾Õ”üÿÿÿÿ8È’†§º1
-M	java:S106…"+Replace this use of System.out by a logger.(Øáòøÿÿÿÿ8È’†§º1
-H	java:S106‡"+Replace this use of System.out by a logger.( ûç8Ì’†§º1
-@
-java:S1128>"Remove this duplicated import.(ÒÜÅ¸úÿÿÿÿ8Ì’†§º1

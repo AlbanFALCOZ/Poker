@@ -55,7 +55,7 @@ public class MainPoker {
         }
     }
 
-    public int triValues() { //trie les valeurs de la main
+    public int returnMaxValue() { //trie les valeurs de la main
         ArrayList<Integer> values = new ArrayList<Integer>();
         for (Carte carte : main) {
             values.add(carte.getValue());
@@ -63,6 +63,15 @@ public class MainPoker {
         Collections.sort(values, Collections.reverseOrder()); //trie les valeurs de la main dans l'ordre décroissant;
         valuesSorted = values;
         return values.get(0);
+    }
+    public ArrayList<Integer> triValues(){ //trie les valeurs de la main
+        ArrayList<Integer> values = new ArrayList<Integer>();
+        for(Carte carte: main){
+            values.add(carte.getValue());
+        }
+        Collections.sort(values);
+        return values;
+
     }
 
     public boolean suite() {
@@ -82,7 +91,7 @@ public class MainPoker {
     public int carteHauteSuite() {
         if (this.suite()) {
 
-            return this.triValues();
+            return this.returnMaxValue();
         } else {
             return -1;
         }
