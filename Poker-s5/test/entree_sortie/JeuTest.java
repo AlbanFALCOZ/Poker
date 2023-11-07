@@ -1,8 +1,4 @@
-package Entrée_sortie;
-
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+package entree_sortie;
 
 class JeuTest {
 

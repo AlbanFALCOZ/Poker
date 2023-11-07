@@ -1,8 +1,7 @@
-package Poker;
+package poker;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Arrays;
 
 public class MainPoker {
     int CARD_NUMBER = 5;
@@ -153,7 +152,7 @@ public class MainPoker {
         }
         return samecolor;
     }
-    public boolean straightFlush(){
+    public boolean quinteFlush(){
         if(suite()&&couleur()) return true;
         return false;
     }

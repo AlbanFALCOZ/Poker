@@ -1,4 +1,4 @@
-package Poker;
+package poker;
 
 import org.junit.jupiter.api.Test;
 

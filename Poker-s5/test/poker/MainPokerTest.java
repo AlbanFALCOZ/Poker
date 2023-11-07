@@ -1,4 +1,4 @@
-package Poker;
+package poker;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -252,25 +252,25 @@ public class MainPokerTest {
     }
 
     @Test
-    public void TestStraightFlush(){
-        Carte[] straightFlushHand = {
+    public void TestQuinteFlush(){
+        Carte[] quinteFlushHand = {
                 new Carte(  2, "Tr"),
                 new Carte(3, "Tr"),
                 new Carte(4, "Tr"),
                 new Carte(5, "Tr"),
                 new Carte(6, "Tr")
         };
-        MainPoker mainPoker1=new MainPoker(straightFlushHand);
-        Carte[] nonStraightFlushHand = {
+        MainPoker mainPoker1=new MainPoker(quinteFlushHand);
+        Carte[] nonQuinteFlushHand = {
                 new Carte(2, "Pi"),
                 new Carte(6, "Tr"),
                 new Carte(2, "Ca"),
                 new Carte(2, "Tr"),
                 new Carte(3, "Tr")
         };
-        MainPoker mainPoker2=new MainPoker(nonStraightFlushHand);
-        assertTrue(mainPoker1.straightFlush());
-        assertFalse(mainPoker2.straightFlush());
+        MainPoker mainPoker2=new MainPoker(nonQuinteFlushHand);
+        assertTrue(mainPoker1.quinteFlush());
+        assertFalse(mainPoker2.quinteFlush());
 
     }
 }

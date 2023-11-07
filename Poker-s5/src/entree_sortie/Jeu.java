@@ -1,7 +1,7 @@
-package Entrée_sortie;
+package entree_sortie;
 
-import Poker.MainPoker;
-import Poker.Carte;
+import poker.MainPoker;
+import poker.Carte;
 
 import java.util.Scanner;
 
@@ -58,8 +58,6 @@ public class Jeu {
 
 }
 */
-
-import java.util.Scanner;
 
 public class Jeu {
     private Scanner myScan;
