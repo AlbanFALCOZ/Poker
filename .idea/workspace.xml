@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f67a9b15-4df0-4b6f-9c79-701cd662677c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170f06b28309557d3e5f5ab425a05eac1e736351" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a098dfeb5f45711153e3fe188a6b09dcaef84d67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a098dfeb5f45711153e3fe188a6b09dcaef84d67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19597ef9d936677bfe70f1df8b9ea09d994cd3a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19597ef9d936677bfe70f1df8b9ea09d994cd3a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/src/entree_sortie/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/entree_sortie/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/Carte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/MainPoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/test/entree_sortie/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/entree_sortie/JeuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/test/poker/CarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/poker/CarteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Entrée_sortie/Jeu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Entrée_sortie/JeuTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPokerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPokerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="f67a9b15-4df0-4b6f-9c79-701cd662677c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,7 +46,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/OneDrive/Bureau/projetPoker/dojo-poker-23-24-ps5-23-24-poker-m&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/norakaymakcilar/Documents/projet_poker/dojo-poker-23-24-ps5-23-24-poker-m&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,13 +64,13 @@
       <recent name="Poker" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPokerTest">
+  <component name="RunManager" selected="JUnit.MainPokerTest.TestStraightFlush">
     <configuration name="JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entree_sortie.JeuTest" />
+      <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entree_sortie.*" />
+          <option name="PATTERN" value="Entrée_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,17 +78,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JeuTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Entrée_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Entrée_sortie" />
+      <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,12 +98,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="TestQuinteFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -134,12 +114,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="TestStraightFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,12 +130,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="testCouleur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -164,18 +144,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPokerTest" />
-        <item itemvalue="JUnit.MainPokerTest.TestQuinteFlush" />
-        <item itemvalue="Application.JeuTest" />
         <item itemvalue="JUnit.MainPokerTest.TestStraightFlush" />
+        <item itemvalue="JUnit.MainPokerTest.TestQuinteFlush" />
         <item itemvalue="JUnit.MainPokerTest.testCouleur" />
+        <item itemvalue="Application.JeuTest" />
+        <item itemvalue="JUnit.JeuTest.main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cf68e77-0ed4-48d1-8556-5f31be89c4a4" name="Changes" comment="" />
+      <changelist id="f67a9b15-4df0-4b6f-9c79-701cd662677c" name="Changes" comment="" />
       <created>1698415846125</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -184,6 +164,9 @@
       <workItem from="1698320957205" duration="75000" />
       <workItem from="1698321047634" duration="154000" />
       <workItem from="1698418560996" duration="2027000" />
+      <workItem from="1699355335477" duration="18000" />
+      <workItem from="1699355357972" duration="26000" />
+      <workItem from="1699355487518" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="ajout des tests dans MainPokerTest">
       <option name="closed" value="true" />
@@ -226,14 +209,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java</url>
+          <url>file://$PROJECT_DIR$/Poker-s5/test/Poker/MainPokerTest.java</url>
           <line>271</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
