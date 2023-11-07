@@ -6,7 +6,8 @@ import java.util.Collections;
 public class MainPoker {
     int CARD_NUMBER = 5;
     Carte[] main;
-    int[] occurrences = new int[15];
+    int[] occurrences = new int[15]; //Cette liste contient le nombre d'occurences de chaque carte. Ex : Si nous avons deux 2 et un 3, la liste contiendra [0,0,2,3,...,0]
+    //Cela nous permet
     int[] occurencesCouleur = new int[4];
     ArrayList<Integer> valuesSorted = new ArrayList<Integer>();
 
@@ -80,27 +81,14 @@ public class MainPoker {
 
     public int carteHauteSuite() {
         if (this.suite()) {
-            ArrayList<Integer> values = new ArrayList<Integer>();
-            for (Carte carte : this.main) {
-                values.add(carte.getValue());
-            }
-            Collections.sort(values, Collections.reverseOrder());
-            return values.get(0);
+
+            return this.triValues();
         } else {
             return -1;
         }
     }
 
     public boolean pair() {
-        /*for (Carte carte : main) { //parcourir chaque carte de la main
-            int indice = carte.getValue()-2;
-            occurrences[indice] += 1;
-            if (occurrences[indice] == 2) {
-                return true;
-            }
-        }
-        return false;*/
-
         for (int occurrence : occurrences) {
             if (occurrence == 2) {
                 return true;
@@ -138,19 +126,6 @@ public class MainPoker {
     }
 
     public boolean full() {
-        /*
-        boolean troisCartesIdentiques = false;
-        boolean deuxCartesIdentiques = false;
-
-        for (int i = 2; i <= 14; i++) {
-            if (occurrences[i] == 3) {
-                troisCartesIdentiques = true;
-            } else if (occurrences[i] == 2) {
-                deuxCartesIdentiques = true;
-            }
-        }
-        return troisCartesIdentiques && deuxCartesIdentiques;
-        */
         if (brelan() && pair()) return true;
         return false;
     }
@@ -206,7 +181,4 @@ public class MainPoker {
         }
         return handString.toString().trim();
     }
-
-
-
 }
