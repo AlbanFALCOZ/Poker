@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poker/MainPoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poker/Score.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MainPokerTest">
+  <component name="RunManager" selected="Application.entree_sortie.JeuTest">
     <configuration name="JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entree_sortie.JeuTest" />
       <module name="Poker-s5" />
@@ -122,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.entree_sortie.JeuTest" />
         <item itemvalue="JUnit.MainPokerTest" />
         <item itemvalue="JUnit.CarteTest (1)" />
-        <item itemvalue="Application.entree_sortie.JeuTest" />
         <item itemvalue="JUnit.MainPokerTest (1)" />
         <item itemvalue="Application.JeuTest" />
       </list>
@@ -140,7 +140,7 @@
       <updated>1699278398359</updated>
       <workItem from="1699278399519" duration="6769000" />
       <workItem from="1699345971851" duration="3226000" />
-      <workItem from="1699349239841" duration="3466000" />
+      <workItem from="1699349239841" duration="3772000" />
     </task>
     <servers />
   </component>

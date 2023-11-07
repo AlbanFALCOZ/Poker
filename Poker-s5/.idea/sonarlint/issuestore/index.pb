@@ -19,3 +19,5 @@ H
 src/poker/MainPoker.java,1\6\1601a6b0157d9b198f024a2bd5f979aa6eb17d48
 J
 src/entree_sortie/Jeu.java,c\0\c042c02bbc0465a14b7a281f30249cf2ccf5f0a0
+O
+test/entree_sortie/JeuTest.java,8\7\8795f417befa2c7c357c9ed07c43bcceef81fb00
