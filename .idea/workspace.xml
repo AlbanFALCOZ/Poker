@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f67a9b15-4df0-4b6f-9c79-701cd662677c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af217d6a5463429f6a76ebeee24e138b44a9afd7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19597ef9d936677bfe70f1df8b9ea09d994cd3a" beforeDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e19597ef9d936677bfe70f1df8b9ea09d994cd3a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
     </list>
+=======
+    <list default="true" id="f67a9b15-4df0-4b6f-9c79-701cd662677c" name="Changes" comment="" />
+>>>>>>> 0147208f5269a488d9910bcc2fb87e6a5e24e860
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,6 +43,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
@@ -60,6 +65,29 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/norakaymakcilar/Documents/projet_poker/dojo-poker-23-24-ps5-23-24-poker-m&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> 0147208f5269a488d9910bcc2fb87e6a5e24e860
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,13 +99,13 @@
       <recent name="Poker" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPokerTest">
+  <component name="RunManager" selected="JUnit.MainPokerTest.TestStraightFlush">
     <configuration name="JeuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entree_sortie.JeuTest" />
+      <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entree_sortie.*" />
+          <option name="PATTERN" value="Entrée_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,17 +113,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JeuTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Entrée_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Entrée_sortie" />
+      <option name="MAIN_CLASS_NAME" value="Entrée_sortie.JeuTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,12 +133,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="TestQuinteFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -120,12 +149,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="TestStraightFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,12 +165,12 @@
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker.*" />
+          <option name="PATTERN" value="Poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.MainPokerTest" />
+      <option name="MAIN_CLASS_NAME" value="Poker.MainPokerTest" />
       <option name="METHOD_NAME" value="testCouleur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPokerTest" />
-        <item itemvalue="JUnit.MainPokerTest.TestQuinteFlush" />
-        <item itemvalue="Application.JeuTest" />
         <item itemvalue="JUnit.MainPokerTest.TestStraightFlush" />
+        <item itemvalue="JUnit.MainPokerTest.TestQuinteFlush" />
         <item itemvalue="JUnit.MainPokerTest.testCouleur" />
+        <item itemvalue="Application.JeuTest" />
+        <item itemvalue="JUnit.JeuTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +199,13 @@
       <workItem from="1698320957205" duration="75000" />
       <workItem from="1698321047634" duration="154000" />
       <workItem from="1698418560996" duration="2027000" />
+<<<<<<< HEAD
       <workItem from="1699355538576" duration="60000" />
+=======
+      <workItem from="1699355335477" duration="18000" />
+      <workItem from="1699355357972" duration="26000" />
+      <workItem from="1699355487518" duration="317000" />
+>>>>>>> 0147208f5269a488d9910bcc2fb87e6a5e24e860
     </task>
     <task id="LOCAL-00001" summary="ajout des tests dans MainPokerTest">
       <option name="closed" value="true" />
@@ -213,14 +248,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java</url>
+          <url>file://$PROJECT_DIR$/Poker-s5/test/Poker/MainPokerTest.java</url>
           <line>271</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Poker-s5/test/poker/MainPokerTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
