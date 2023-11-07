@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b09b3f3-1c95-454d-89eb-fe8195f416e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8795f417befa2c7c357c9ed07c43bcceef81fb00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/8795f417befa2c7c357c9ed07c43bcceef81fb00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Poker-s5/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Poker-s5/Poker/Score.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/poker/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/dojo-poker-23-24-ps5-23-24-poker-m/entree_sortie/Jeu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/test/dojo-poker-23-24-ps5-23-24-poker-m/entree_sortie/JeuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/1601a6b0157d9b198f024a2bd5f979aa6eb17d48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/1601a6b0157d9b198f024a2bd5f979aa6eb17d48" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74faabb92e047b0cf5c37f67f3338d991c016d3d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74faabb92e047b0cf5c37f67f3338d991c016d3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c042c02bbc0465a14b7a281f30249cf2ccf5f0a0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c042c02bbc0465a14b7a281f30249cf2ccf5f0a0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd4979e361386d800b4fb60bca4ffc2c2ce71f68" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd4979e361386d800b4fb60bca4ffc2c2ce71f68" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +68,7 @@
       <module name="Poker-s5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Entrée_sortie.*" />
+          <option name="PATTERN" value="entree_sortie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +155,7 @@
       <workItem from="1699278399519" duration="6769000" />
       <workItem from="1699345971851" duration="3226000" />
       <workItem from="1699349239841" duration="3772000" />
+      <workItem from="1699353121869" duration="155000" />
     </task>
     <servers />
   </component>
