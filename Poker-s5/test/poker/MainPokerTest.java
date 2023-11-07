@@ -46,10 +46,10 @@ class MainPokerTest {
     }
 
     @Test
-    void testTriValues() {
+    void testReturnMaxValue() {
         // Teste si les valeurs des cartes sont triées correctement
         // Les valeurs de cartes triées devraient être [14, 14, 10, 6, 4]
-        assertEquals(14, mainPoker.triValues());
+        assertEquals(14, mainPoker.returnMaxValue());
     }
 
     @Test

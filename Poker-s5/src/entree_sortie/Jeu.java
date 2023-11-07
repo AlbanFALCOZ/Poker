@@ -82,8 +82,8 @@ public class Jeu {
             numberOfHand--;
             secondHand = readHand();
         }
-        int maxfirst = firstHand.triValues();
-        int maxsecond = secondHand.triValues();
+        int maxfirst = firstHand.returnMaxValue();
+        int maxsecond = secondHand.returnMaxValue();
         if (maxfirst > maxsecond) {
             System.out.println("Main 1 gagne");
         } else if (maxfirst < maxsecond) {
