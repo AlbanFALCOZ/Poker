@@ -7,6 +7,7 @@
     <list default="true" id="63628a63-63cf-4a04-9a1c-b7c7569fdb07" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Poker-s5/.idea/sonarlint/issuestore/3/1/3145ab92c26343a35686d25b59f70fb6c3ebd5f2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Poker-s5/.idea/sonarlint/securityhotspotstore/3/1/3145ab92c26343a35686d25b59f70fb6c3ebd5f2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

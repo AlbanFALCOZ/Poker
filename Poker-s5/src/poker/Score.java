@@ -39,8 +39,18 @@ public class Score {
         return scoreHand;
     }
 
-
-
+    public String compareHand(Score other) { // compare la force de la main et renvoie la main gagnante
+        if (this.scoreHand > other.scoreHand) return "Main 1 a gagné";
+        else if (this.scoreHand < other.scoreHand) return "Main 2 a gagné";
+        else  {
+            if (this.Hand.returnMaxValue() > other.Hand.returnMaxValue())
+                return "Main 1 a gagné avec la valeur la plus haute";
+            else if (this.Hand.returnMaxValue() < other.Hand.returnMaxValue()) return "Main 2 a gagné avec la valeur la plus haute";
+            else {
+                return "égalité";
+            }
+        }
+    }
 
 
 }
