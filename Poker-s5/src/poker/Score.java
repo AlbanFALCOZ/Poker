@@ -16,8 +16,8 @@ public class Score {
     public void initializeScoreRules() {           //score pour chaque règle
         scoreByRule.put("HighCard", 0);
         scoreByRule.put("Pair", 1);
-        scoreByRule.put("DeuxPairs", 2);
-        scoreByRule.put("Brelan", 3);
+        scoreByRule.put("DeuxPairs", 3);
+        scoreByRule.put("Brelan", 5);
         scoreByRule.put("Suite", 4);
         scoreByRule.put("Couleur", 5);
         scoreByRule.put("Full", 6);

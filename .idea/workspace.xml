@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63628a63-63cf-4a04-9a1c-b7c7569fdb07" name="Changes" comment="" />
+    <list default="true" id="63628a63-63cf-4a04-9a1c-b7c7569fdb07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/Poker-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/Poker-s5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/MainPoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/MainPoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-s5/test/poker/ScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/test/poker/ScoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dojo-poker-23-24-ps5-23-24-poker-m.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Carte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/CarteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/MainPokerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/entree_sortie/JeuTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

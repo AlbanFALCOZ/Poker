@@ -35,6 +35,7 @@ class ScoreTest {
     }
     @Test
     void testCompareHand(){
+        /*
         Carte[] cartes1 = {
                 new Carte(10, "Ca"),
                 new Carte(10, "Co"),
@@ -51,9 +52,28 @@ class ScoreTest {
                 new Carte(2, "Tr"),
                 new Carte(4, "Tr")
         };
-        MainPoker main2= new MainPoker(cartes2);
-        Score score2=new Score(main2);
-        assertEquals("Main 1 a gagné",score1.compareHand(score2));
+        */
+
+
+        Carte[] cartes3 = {
+                new Carte(10, "Ca"),
+                new Carte(9, "Co"),
+                new Carte(8, "Pi"),
+                new Carte(7, "Tr"),
+                new Carte(6, "Ca")
+        };
+        MainPoker main3= new MainPoker(cartes3);
+        Score score3=new Score(main3);
+        Carte[] cartes4={
+                new Carte(10, "Tr"),
+                new Carte(9, "Co"),
+                new Carte(8, "Pi"),
+                new Carte(7, "Tr"),
+                new Carte(5, "Tr")
+        };
+        MainPoker main4= new MainPoker(cartes4);
+        Score score4=new Score(main4);
+        assertEquals("Main 3 a gagné",score3.compareHand(score4));
 
 
     }

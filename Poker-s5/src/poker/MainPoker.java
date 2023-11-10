@@ -7,7 +7,6 @@ public class MainPoker {
     int CARD_NUMBER = 5;
     Carte[] main;
     int[] occurrences = new int[15]; //Cette liste contient le nombre d'occurences de chaque carte. Ex : Si nous avons deux 2 et un 3, la liste contiendra [0,0,2,3,...,0]
-    //Cela nous permet
     int[] occurencesCouleur = new int[4];
     ArrayList<Integer> valuesSorted = new ArrayList<Integer>();
 
@@ -20,6 +19,7 @@ public class MainPoker {
         }
         this.main = main;
         initialiserOccurrences();
+        triValues();
     }
 
     public boolean verifMain(Carte[] main) {
@@ -56,22 +56,20 @@ public class MainPoker {
     }
 
     public int returnMaxValue() { //trie les valeurs de la main
-        ArrayList<Integer> values = new ArrayList<Integer>();
-        for (Carte carte : main) {
-            values.add(carte.getValue());
+        int maxValue = valuesSorted.get(0);
+        if (maxValue != -1) {
+            valuesSorted.set(0,-1);
+            triValues();
         }
-        Collections.sort(values, Collections.reverseOrder()); //trie les valeurs de la main dans l'ordre décroissant;
-        valuesSorted = values;
-        return values.get(0);
+        return maxValue;
     }
-    public ArrayList<Integer> triValues(){ //trie les valeurs de la main
-        ArrayList<Integer> values = new ArrayList<Integer>();
-        for(Carte carte: main){
-            values.add(carte.getValue());
+    public void triValues(){ //trie les valeurs de la main
+        if (valuesSorted.size() == 0) {
+            for(Carte carte: main){
+                valuesSorted.add(carte.getValue());
+            }
         }
-        Collections.sort(values);
-        return values;
-
+        Collections.sort(valuesSorted,Collections.reverseOrder());
     }
 
     public boolean suite() {
