@@ -2,6 +2,7 @@ package entree_sortie;
 
 import poker.MainPoker;
 import poker.Carte;
+import poker.Score;
 
 import java.util.Scanner;
 
@@ -82,15 +83,9 @@ public class Jeu {
             numberOfHand--;
             secondHand = readHand();
         }
-        int maxfirst = firstHand.returnMaxValue();
-        int maxsecond = secondHand.returnMaxValue();
-        if (maxfirst > maxsecond) {
-            System.out.println("Main 1 gagne");
-        } else if (maxfirst < maxsecond) {
-            System.out.println("Main 2 gagne");
-        } else {
-            System.out.println("Egalité");
-        }
+        Score score1 = new Score(firstHand);
+        Score score2 = new Score(secondHand);
+        System.out.println(score1.compareHand(score2));
 
     }
 

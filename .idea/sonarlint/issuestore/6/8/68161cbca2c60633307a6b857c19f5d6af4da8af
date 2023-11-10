@@ -1,24 +1,22 @@
 
-c
-java:S1192:"MDefine a constant instead of duplicating this literal "ProblÃ¨me : " 3 times.(Ä®ãÕ
-ˆ
-java:S1192:"rDefine a constant instead of duplicating this literal " n'est pas une carte valide. Veuillez recommencer" 3 times.(Ä®ãÕ
-n
-java:S1450"XRemove the "firstHand" field and declare it as a local variable in the relevant methods.(šé¦ô
+j
+java:S1192;"MDefine a constant instead of duplicating this literal "ProblÃ¨me : " 3 times.(Ä®ãÕ8öá†Î»1
+
+java:S1192;"rDefine a constant instead of duplicating this literal " n'est pas une carte valide. Veuillez recommencer" 3 times.(Ä®ãÕ8öá†Î»1
+u
+java:S1450"XRemove the "firstHand" field and declare it as a local variable in the relevant methods.(šé¦ô8¹ä†Î»1
+{
+java:S1450"YRemove the "secondHand" field and declare it as a local variable in the relevant methods.(½‡±îûÿÿÿÿ8Áä†Î»1
 t
-java:S1450"YRemove the "secondHand" field and declare it as a local variable in the relevant methods.(½‡±îûÿÿÿÿ
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ë¿·˜ùÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ÂŠ²éşÿÿÿÿ
-7	java:S131%""Add a default case to this switch.(û‰¶¢
-@	java:S106:"+Replace this use of System.out by a logger.(Ä®ãÕ
-@	java:S106@"+Replace this use of System.out by a logger.(Ä®ãÕ
-@	java:S106D"+Replace this use of System.out by a logger.(Ä®ãÕ
-K
-java:S2696I"6Make the enclosing method "static" or remove this set.(Ÿ’ş/
-@	java:S106Q"+Replace this use of System.out by a logger.(•Ñ¬
-Q
-java:S2696R"6Make the enclosing method "static" or remove this set.(ß¿ıÜşÿÿÿÿ
-E	java:S106X"+Replace this use of System.out by a logger.(ü¾Õ”üÿÿÿÿ
-E	java:S106Z"+Replace this use of System.out by a logger.(Øáòøÿÿÿÿ
-@	java:S106\"+Replace this use of System.out by a logger.( ûç
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ë¿·˜ùÿÿÿÿ8Éä†Î»1
+L	java:S106"+Replace this use of System.out by a logger.(ÂŠ²éşÿÿÿÿ8Éä†Î»1
+>	java:S131&""Add a default case to this switch.(û‰¶¢8Ñä†Î»1
+G	java:S106;"+Replace this use of System.out by a logger.(Ä®ãÕ8Ñä†Î»1
+G	java:S106A"+Replace this use of System.out by a logger.(Ä®ãÕ8Ñä†Î»1
+G	java:S106E"+Replace this use of System.out by a logger.(Ä®ãÕ8Ñä†Î»1
+R
+java:S2696J"6Make the enclosing method "static" or remove this set.(Ÿ’ş/8Ùä†Î»1
+G	java:S106R"+Replace this use of System.out by a logger.(•Ñ¬8Ùä†Î»1
+X
+java:S2696S"6Make the enclosing method "static" or remove this set.(ß¿ıÜşÿÿÿÿ8Ùä†Î»1
+L	java:S106X"+Replace this use of System.out by a logger.(œÉÙ ûÿÿÿÿ8áä†Î»1
