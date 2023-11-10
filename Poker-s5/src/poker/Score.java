@@ -9,6 +9,7 @@ public class Score {
 
     public Score(MainPoker Hand){
         this.Hand=Hand;
+        initializeScoreRules();
     }
 
 

@@ -1,0 +1,19 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍŞçûÿÿÿÿ
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ
+t
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ
+t
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(íø¶şøÿÿÿÿ
+‹
+java:S1319C"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÚŞÅøÿÿÿÿ
+k	java:S116"VRename this field "CARD_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¥ªö
+@	java:S106&"+Replace this use of System.out by a logger.(§ö™
+Q	java:S125?"<This block of commented-out lines of code should be removed.(×úĞ
+X
+java:S1126Š"AReplace this if-then-else statement by a single return statement.(·óîç
+X
+java:S1126®"AReplace this if-then-else statement by a single return statement.(²­ÕÇ
+Q	java:S125´"<This block of commented-out lines of code should be removed.(”İ»n
