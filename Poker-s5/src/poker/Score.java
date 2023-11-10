@@ -9,6 +9,7 @@ public class Score {
 
     public Score(MainPoker Hand){
         this.Hand=Hand;
+        initializeScoreRules();
     }
 
 
@@ -40,6 +41,9 @@ public class Score {
     }
 
     public String compareHand(Score other) { // compare la force de la main et renvoie la main gagnante
+
+        this.calculateScoreHand();
+        other.calculateScoreHand();
         if (this.scoreHand > other.scoreHand) return "Main 1 a gagné";
         else if (this.scoreHand < other.scoreHand) return "Main 2 a gagné";
         else  {
