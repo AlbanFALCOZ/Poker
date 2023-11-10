@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63628a63-63cf-4a04-9a1c-b7c7569fdb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c76f8e5c6619f482bd793cbd0d77d208cf73f67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc0d1fee2c87cd7eea322532beb44079e9129d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41af742405cfe490fd8cbf5e8ac0493166699590" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fa658449ae1eea1e729256e470052d580130617" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7b4d059544b6b26d850f3025e02d682b462e242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df6db05276113ef758437f614ac3618e22a22e92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8294b917290781e7ad6dcd33cbbe22a964d237c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c76f8e5c6619f482bd793cbd0d77d208cf73f67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3bc0d1fee2c87cd7eea322532beb44079e9129d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/1/41af742405cfe490fd8cbf5e8ac0493166699590" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7fa658449ae1eea1e729256e470052d580130617" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/7/d7b4d059544b6b26d850f3025e02d682b462e242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df6db05276113ef758437f614ac3618e22a22e92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/8/f8294b917290781e7ad6dcd33cbbe22a964d237c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker-s5/test/poker/ScoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/dojo-poker-23-24-ps5-23-24-poker-m/Poker/ScoreTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-s5/src/poker/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dojo-poker-23-24-ps5-23-24-poker-m/Poker/Score.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/norakaymakcilar/Documents/projet_poker/dojo-poker-23-24-ps5-23-24-poker-m",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/norakaymakcilar/Documents/projet_poker/dojo-poker-23-24-ps5-23-24-poker-m&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,22 +80,7 @@
       <recent name="Poker" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScoreTest">
-    <configuration name="CarteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="poker" />
-      <option name="MAIN_CLASS_NAME" value="poker.CarteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ScoreTest.testCompareHand">
     <configuration name="MainPokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
       <extension name="coverage">
@@ -105,6 +107,22 @@
       <option name="PACKAGE_NAME" value="poker" />
       <option name="MAIN_CLASS_NAME" value="poker.ScoreTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreTest.testCompareHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="poker" />
+      <option name="MAIN_CLASS_NAME" value="poker.ScoreTest" />
+      <option name="METHOD_NAME" value="testCompareHand" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,13 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dojo-poker-23-24-ps5-23-24-poker-m" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScoreTest.testCompareHand" />
         <item itemvalue="JUnit.ScoreTest" />
         <item itemvalue="JUnit.ScoreTest.testScoreForCarre" />
         <item itemvalue="JUnit.ScoreTest.testScoreForFull" />
         <item itemvalue="JUnit.MainPokerTest" />
-        <item itemvalue="JUnit.CarteTest" />
       </list>
     </recent_temporary>
   </component>
